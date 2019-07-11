@@ -1,2 +1,2 @@
-git.exe -branch -a
+git.exe branch -a
 echo "Running after commit"
