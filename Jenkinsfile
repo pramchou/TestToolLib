@@ -5,7 +5,10 @@ node{
     stage('Create new Branch'){
     bat "git checkout -b NewBranch"
     }
-    stage('Push new Branch'){
+     stage('rebase'){
+    bat "git rebase -i origin/master"
+    }
+   stage('Push new Branch'){
     bat "git push origin NewBranch"
     }
 
