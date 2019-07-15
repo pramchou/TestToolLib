@@ -1,3 +1,4 @@
+git.exe %*
 git remote set-head origin -a
 git checkout -b NewBranch9
 git branch -a
